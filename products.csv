@@ -1,0 +1,201 @@
+product_id,product_name,category,price,cost,stock_quantity
+1,Plant Pot - Model 331,Home & Garden,187.32,78.21,64.0
+2,Lipstick - Model 480,Beauty,110.14,75.53,114.0
+3,Yoga Mat - Model 832,Sports,187.42,117.64,236.0
+4,Fiction Novel - Model 332,Books,222.41,111.32,221.0
+5,Board Game - Model 378,Toys,197.72,106.67,381.0
+6,Snack Box - Model 450,Food & Beverage,45.43,27.82,102.0
+7,Chocolate - Model 125,Food & Beverage,182.13,76.23,408.0
+8,Board Game - Model 885,Toys,125.84,65.75,476.0
+9,Dumbbells - Model 544,Sports,49.44,23.2,132.0
+10,Vacuum - Model 463,Home & Garden,164.51,100.21,81.0
+11,Tennis Racket - Model 905,Sports,50.55,32.85,416.0
+12,Tennis Racket - Model 290,Sports,205.51,102.98,296.0
+13,Yoga Mat - Model 929,Sports,20.25,9.49,241.0
+14,Laptop - Model 698,Electronics,837.67,413.52,335.0
+15,Running Shoes - Model 134,Sports,281.33,129.78,228.0
+16,Tablet - Model 338,Electronics,336.39,224.06,100.0
+17,Sweater - Model 930,Clothing,130.95,72.6,273.0
+18,Self-Help Book - Model 884,Books,125.6,86.72,65.0
+19,Doll - Model 740,Toys,268.35,181.56,137.0
+20,Tea Set - Model 706,Food & Beverage,137.57,76.64,363.0
+21,Action Figure - Model 531,Toys,148.48,84.84,197.0
+22,Camera - Model 402,Electronics,960.36,490.61,361.0
+23,Puzzle - Model 951,Toys,97.71,59.34,49.0
+24,Doll - Model 652,Toys,203.05,129.44,237.0
+25,Plant Pot - Model 430,Home & Garden,93.92,43.38,74.0
+26,Tea Set - Model 716,Food & Beverage,197.83,104.57,271.0
+27,LEGO Set - Model 843,Toys,69.21,47.65,269.0
+28,Basketball - Model 717,Sports,21.02,11.29,466.0
+29,Chocolate - Model 793,Food & Beverage,260.13,120.54,355.0
+30,Action Figure - Model 196,Toys,79.03,45.69,191.0
+31,Lipstick - Model 898,Beauty,241.38,102.4,350.0
+32,Smartphone - Model 505,Electronics,530.85,281.76,448.0
+33,Moisturizer - Model 568,Beauty,126.95,59.28,152.0
+34,Spice Kit - Model 991,Food & Beverage,146.6,71.74,290.0
+35,Shampoo - Model 697,Beauty,51.27,26.02,315.0
+36,Sweater - Model 640,Clothing,15.18,7.6,158.0
+37,Plant Pot - Model 256,Home & Garden,120.53,51.94,180.0
+38,Shampoo - Model 552,Beauty,273.19,133.45,293.0
+39,Shampoo - Model 363,Beauty,183.01,106.97,469.0
+40,Fiction Novel - Model 676,Books,68.31,34.45,403.0
+41,Biography - Model 897,Books,115.07,68.9,188.0
+42,Yoga Mat - Model 625,Sports,146.28,80.04,16.0
+43,Smartphone - Model 193,Electronics,1120.58,453.51,74.0
+44,Tea Set - Model 485,Food & Beverage,120.25,56.09,380.0
+45,Coffee Maker - Model 772,Home & Garden,223.39,142.62,104.0
+46,Vacuum - Model 309,Home & Garden,284.65,138.2,258.0
+47,Snack Box - Model 712,Food & Beverage,173.64,120.49,218.0
+48,Moisturizer - Model 694,Beauty,241.12,105.41,308.0
+49,Tablet - Model 541,Electronics,845.64,438.8,496.0
+50,Camera - Model 979,Electronics,691.43,431.29,
+51,Self-Help Book - Model 558,Books,277.95,175.68,285.0
+52,Tennis Racket - Model 728,Sports,159.09,80.96,480.0
+53,Fiction Novel - Model 541,Books,150.46,96.07,402.0
+54,Smart Watch - Model 199,Electronics,336.85,227.55,149.0
+55,LEGO Set - Model 392,Toys,41.16,20.79,251.0
+56,Running Shoes - Model 688,Sports,131.36,85.47,130.0
+57,Tea Set - Model 339,Food & Beverage,209.71,117.83,393.0
+58,Camera - Model 828,Electronics,1167.94,581.25,256.0
+59,Camera - Model 547,Electronics,531.04,267.34,44.0
+60,Tennis Racket - Model 410,Sports,167.27,104.05,226.0
+61,Sneakers - Model 871,Clothing,112.8,63.39,121.0
+62,Snack Box - Model 370,Food & Beverage,81.2,41.12,310.0
+63,Face Mask - Model 319,Beauty,102.48,56.47,202.0
+64,Rug - Model 253,Home & Garden,103.78,48.98,261.0
+65,Lipstick - Model 722,Beauty,124.05,85.06,84.0
+66,Cookbook - Model 995,Books,96.47,45.31,128.0
+67,Face Mask - Model 214,Beauty,105.69,48.19,52.0
+68,Doll - Model 340,Toys,19.34,10.66,32.0
+69,Smart Watch - Model 314,Electronics,841.56,419.97,158.0
+70,Face Mask - Model 537,Beauty,94.31,37.74,153.0
+71,Smartphone - Model 365,Electronics,741.56,394.8,235.0
+72,Face Mask - Model 859,Beauty,45.53,30.25,218.0
+73,Jeans - Model 931,Clothing,47.82,23.98,386.0
+74,Basketball - Model 514,Sports,246.68,150.38,179.0
+75,Face Mask - Model 818,Beauty,216.18,91.02,288.0
+76,Laptop - Model 409,Electronics,1192.35,520.8,266.0
+77,Dumbbells - Model 234,Sports,72.84,47.6,212.0
+78,Moisturizer - Model 328,Beauty,39.12,21.7,161.0
+79,Laptop - Model 446,Electronics,292.66,186.02,246.0
+80,Basketball - Model 996,Sports,13.35,8.88,35.0
+81,Coffee Maker - Model 976,Home & Garden,245.09,132.28,493.0
+82,Dress - Model 494,Clothing,118.4,73.92,334.0
+83,Sneakers - Model 681,Clothing,69.61,43.94,59.0
+84,Tennis Racket - Model 841,Sports,191.39,98.01,449.0
+85,Puzzle - Model 197,Toys,45.04,27.09,378.0
+86,Basketball - Model 548,Sports,129.42,54.93,221.0
+87,Coffee Beans - Model 649,Food & Beverage,150.08,60.55,159.0
+88,Lamp - Model 824,Home & Garden,256.7,115.23,427.0
+89,Action Figure - Model 818,Toys,152.21,65.51,216.0
+90,Jeans - Model 325,Clothing,193.13,89.28,71.0
+91,Jeans - Model 461,Clothing,66.7,29.95,69.0
+92,Smart Watch - Model 980,Electronics,1313.72,829.62,135.0
+93,Camera - Model 946,Electronics,125.64,58.29,446.0
+94,Jacket - Model 634,Clothing,106.76,60.5,197.0
+95,Rug - Model 653,Home & Garden,140.2,56.37,204.0
+96,T-Shirt - Model 285,Clothing,142.74,95.85,403.0
+97,Rug - Model 335,Home & Garden,19.52,13.18,198.0
+98,Action Figure - Model 602,Toys,134.5,80.99,86.0
+99,T-Shirt - Model 149,Clothing,117.56,76.35,32.0
+100,T-Shirt - Model 234,Clothing,138.44,91.24,363.0
+101,Basketball - Model 326,Sports,254.69,116.83,93.0
+102,Puzzle - Model 863,Toys,179.28,99.03,253.0
+103,Blender - Model 254,Home & Garden,134.47,62.71,404.0
+104,Self-Help Book - Model 668,Books,184.01,109.93,258.0
+105,T-Shirt - Model 820,Clothing,178.07,91.9,
+106,Face Mask - Model 395,Beauty,24.04,12.21,176.0
+107,Blender - Model 872,Home & Garden,28.88,11.98,111.0
+108,Moisturizer - Model 514,Beauty,160.47,102.03,397.0
+109,Sweater - Model 887,Clothing,179.64,72.57,130.0
+110,Moisturizer - Model 818,Beauty,264.17,111.64,312.0
+111,Coffee Beans - Model 923,Food & Beverage,84.43,53.39,430.0
+112,Running Shoes - Model 433,Sports,133.21,63.82,289.0
+113,Action Figure - Model 111,Toys,247.87,143.07,415.0
+114,LEGO Set - Model 947,Toys,20.07,8.82,483.0
+115,Snack Box - Model 542,Food & Beverage,108.74,62.88,112.0
+116,LEGO Set - Model 598,Toys,199.62,95.29,311.0
+117,Fiction Novel - Model 781,Books,98.46,57.66,8.0
+118,Technical Manual - Model 980,Books,114.14,79.79,226.0
+119,Shampoo - Model 295,Beauty,101.7,61.26,321.0
+120,Biography - Model 499,Books,127.81,74.31,449.0
+121,Board Game - Model 500,Toys,23.02,15.69,495.0
+122,Biography - Model 745,Books,50.31,26.17,240.0
+123,Biography - Model 427,Books,268.14,154.11,7.0
+124,Rug - Model 723,Home & Garden,122.35,78.55,490.0
+125,Moisturizer - Model 499,Beauty,45.08,23.27,393.0
+126,Perfume - Model 294,Beauty,12.28,6.05,267.0
+127,Coffee Maker - Model 509,Home & Garden,244.29,161.92,304.0
+128,Perfume - Model 227,Beauty,198.64,103.04,193.0
+129,Plant Pot - Model 941,Home & Garden,226.34,136.97,22.0
+130,Blender - Model 941,Home & Garden,270.09,183.78,487.0
+131,Vacuum - Model 251,Home & Garden,35.15,17.46,140.0
+132,Vacuum - Model 449,Home & Garden,108.66,70.45,199.0
+133,Laptop - Model 863,Electronics,805.45,524.41,428.0
+134,Technical Manual - Model 164,Books,123.24,66.03,55.0
+135,Action Figure - Model 253,Toys,108.45,43.65,184.0
+136,Running Shoes - Model 189,Sports,67.77,30.94,60.0
+137,Self-Help Book - Model 117,Books,276.38,137.86,491.0
+138,Running Shoes - Model 348,Sports,202.53,90.09,371.0
+139,T-Shirt - Model 250,Clothing,126.84,85.8,296.0
+140,Self-Help Book - Model 331,Books,267.84,165.43,405.0
+141,Fiction Novel - Model 131,Books,91.5,58.76,275.0
+142,Chocolate - Model 811,Food & Beverage,74.51,50.08,439.0
+143,Tennis Racket - Model 593,Sports,264.03,152.48,278.0
+144,Rug - Model 146,Home & Garden,263.42,165.14,49.0
+145,Jacket - Model 250,Clothing,187.15,87.67,111.0
+146,Chocolate - Model 986,Food & Beverage,282.69,170.87,381.0
+147,Sneakers - Model 115,Clothing,35.17,24.2,411.0
+148,Shampoo - Model 266,Beauty,259.84,179.82,176.0
+149,Chocolate - Model 872,Food & Beverage,233.98,150.14,415.0
+150,Running Shoes - Model 584,Sports,114.87,61.51,144.0
+151,Board Game - Model 885,Toys,130.93,79.96,257.0
+152,Vacuum - Model 605,Home & Garden,227.21,147.05,76.0
+153,Puzzle - Model 290,Toys,95.67,41.95,164.0
+154,Running Shoes - Model 577,Sports,43.86,30.31,347.0
+155,Lamp - Model 147,Home & Garden,17.32,12.05,128.0
+156,Puzzle - Model 853,Toys,76.82,42.88,261.0
+157,Tea Set - Model 368,Food & Beverage,12.06,6.42,242.0
+158,Perfume - Model 825,Beauty,275.37,113.8,65.0
+159,Snack Box - Model 813,Food & Beverage,103.08,66.83,228.0
+160,Sweater - Model 156,Clothing,138.05,81.14,160.0
+161,Yoga Mat - Model 941,Sports,208.36,96.79,466.0
+162,Face Mask - Model 294,Beauty,114.37,49.27,397.0
+163,Plant Pot - Model 772,Home & Garden,47.23,28.17,246.0
+164,Fiction Novel - Model 369,Books,84.51,39.38,325.0
+165,T-Shirt - Model 183,Clothing,163.97,79.23,146.0
+166,Board Game - Model 988,Toys,181.36,105.05,476.0
+167,Self-Help Book - Model 419,Books,215.27,103.62,104.0
+168,Yoga Mat - Model 727,Sports,182.6,119.61,49.0
+169,Sweater - Model 332,Clothing,172.49,80.75,124.0
+170,Technical Manual - Model 268,Books,280.52,164.57,431.0
+171,Coffee Beans - Model 868,Food & Beverage,36.75,15.2,105.0
+172,Cookbook - Model 714,Books,95.4,55.32,186.0
+173,LEGO Set - Model 741,Toys,217.91,91.66,271.0
+174,Jacket - Model 154,Clothing,109.67,75.06,476.0
+175,Blender - Model 704,Home & Garden,116.24,51.85,310.0
+176,Cookbook - Model 324,Books,142.34,78.93,251.0
+177,Technical Manual - Model 315,Books,261.57,121.45,82.0
+178,Vacuum - Model 716,Home & Garden,76.44,37.95,285.0
+179,Headphones - Model 561,Electronics,69.98,32.33,60.0
+180,Technical Manual - Model 505,Books,73.32,41.55,158.0
+181,Spice Kit - Model 608,Food & Beverage,219.69,104.74,235.0
+182,Smartphone - Model 520,Electronics,633.9,417.04,390.0
+183,Doll - Model 788,Toys,13.63,9.41,193.0
+184,Vacuum - Model 662,Home & Garden,257.89,169.11,61.0
+185,Rug - Model 230,Home & Garden,197.06,85.97,424.0
+186,Basketball - Model 650,Sports,130.45,58.64,284.0
+187,Biography - Model 367,Books,48.76,29.87,110.0
+188,Dumbbells - Model 406,Sports,256.64,158.24,184.0
+189,Face Mask - Model 878,Beauty,58.17,23.91,205.0
+190,Perfume - Model 379,Beauty,19.41,10.93,118.0
+191,Jeans - Model 769,Clothing,52.44,35.36,105.0
+192,LEGO Set - Model 383,Toys,245.3,140.68,287.0
+193,T-Shirt - Model 773,Clothing,193.82,95.51,440.0
+194,Lipstick - Model 367,Beauty,38.44,17.47,14.0
+195,Shampoo - Model 798,Beauty,145.63,62.11,387.0
+196,Tablet - Model 843,Electronics,860.71,586.48,404.0
+197,Lipstick - Model 641,Beauty,191.52,82.06,352.0
+198,Lipstick - Model 470,Beauty,178.02,110.63,419.0
+199,LEGO Set - Model 270,Toys,280.29,118.28,126.0
+200,Chocolate - Model 206,Food & Beverage,228.86,105.86,436.0
