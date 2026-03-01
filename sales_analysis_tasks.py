@@ -141,3 +141,47 @@ category_analysis = order_items_products_merge_df.groupby('category').agg({
 category_analysis['margin_percentage'] = (category_analysis['item_profit'] / category_analysis['item_total_price']) * 100
 category_analysis = category_analysis.sort_values('margin_percentage', ascending=False)
 print(category_analysis)
+#Part 3: Sales Analysis
+#Part 3 Revenue Analysis: Total revenue by month/year
+sales_df['year'] = sales_df['order_date'].dt.year
+sales_df['month_year'] = sales_df['order_date'].dt.to_period('M')
+yearly_rev = sales_df.groupby('year')['total_order_value'].sum()
+print("Total revenue by year")
+print(yearly_rev)
+
+#Part 3 Revenue Analysis: High Sales Month
+high_sales_month = sales_df.groupby('month_year')['total_order_value'].sum().nlargest(1)
+print("High Sales Month")
+print(high_sales_month)
+
+#Part 3 Revenue Analysis: Revenue Growth Rate 
+yoy_growth = yearly_rev.pct_change() * 100
+print("Revenue growth rate year-over-year")
+print(yoy_growth)
+
+#Part 3 Revenue Analysis: Revenue by Category
+category_rev = order_items_products_merge_df.groupby('category')['item_total_price'].sum()
+print("Revenue by Category")
+print(category_rev)
+
+#Part 3 Revenue Analysis: Revenue by Segment
+segment_rev = sales_df.groupby('customer_segment')['total_order_value'].sum()
+print("Revenue by Segment")
+print(segment_rev)
+
+#Part 3 Revenue Analysis: Top 10 Customers
+top_10_cust = sales_df.groupby('customer_id')['total_order_value'].sum().nlargest(10)
+print("Top 10 Customers")
+print(top_10_cust)
+
+# #Part 3 Product Analysis: Best-selling products (by quantity and revenue)
+# top_products = order_items_products_merge_df.groupby('product_name').agg({
+#     'quantity': 'sum',
+#     'item_total_price': 'sum'
+# }).sort_values('item_total_price', ascending=False)
+
+# # Review Correlation
+# # Assuming reviews joined with products
+# avg_ratings = reviews_df.groupby('product_id')['rating'].mean()
+# prod_stats = products_df.merge(avg_ratings, on='product_id')
+# correlation = prod_stats['price'].corr(prod_stats['rating'])
