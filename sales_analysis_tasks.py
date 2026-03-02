@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import util
+from itertools import combinations
+from collections import Counter
 #Part1  1.	Load all 5 CSV files into separate DataFrames
 customers_df=pd.read_csv("customers.csv")
 order_items_df=pd.read_csv("order_items.csv")
@@ -132,7 +134,7 @@ print(f"The Average Order Value is: {average_order_value:.2f}")
 #Part 2   Customer has the highest lifetime value
 top_customer = sales_df.sort_values('CLV', ascending=False).iloc[0]
 print(f"Top Customer ID: {top_customer['customer_id']} - {top_customer['first_name']} {top_customer['last_name']}")
-print(f"Highest Lifetime Value: ${top_customer['CLV']:.2f}")
+print(f"Highest Lifetime Value: {top_customer['CLV']:.2f}")
 #Part 2   Profit margin by category
 category_analysis = order_items_products_merge_df.groupby('category').agg({
     'item_total_price': 'sum',
@@ -369,3 +371,36 @@ rfm['Segment'] = rfm.apply(util.assign_segment, axis=1)
 segment_counts = rfm['Segment'].value_counts().reset_index()
 print('Customer segments based on RFM (Recency, Frequency, Monetary)')
 print(segment_counts)
+
+#Part 4 Product Affinity: Products are often bought together
+order_groups = order_items_products_merge_df.groupby('order_id')['product_name'].apply(list)
+item_pairs = []
+for items in order_groups:
+    if len(items) > 1:
+        items.sort()
+        item_pairs.extend(list(combinations(items, 2)))
+pair_counts = Counter(item_pairs)
+mba_df = pd.DataFrame(pair_counts.most_common(10), columns=['Product_Pair', 'Frequency'])
+
+print('Top 10 Products Frequently Bought Together')
+print(mba_df)
+
+#Part 4 Product Affinity: Simple market basket analysis
+total_orders = orders_df['order_id'].nunique()
+mba_df['Support_%'] = (mba_df['Frequency'] / total_orders) * 100
+print('Simple market basket analysis')
+print(mba_df[['Product_Pair', 'Frequency', 'Support_%']])
+
+#Part 4 Churn Analysis: Customers who haven't purchased in 6+ months
+churn_threshold = 180
+churned_customers_df = rfm[rfm['Recency'] >= churn_threshold].copy()
+print(f"Churned Customers (No purchase in {churn_threshold}+ days)")
+print(churned_customers_df[['customer_id', 'Recency', 'Monetary']].head())
+
+#Part 4 Churn Analysis: Calculate churn rate
+total_customers = rfm['customer_id'].nunique()
+num_churned = len(churned_customers_df)
+churn_rate = (num_churned / total_customers) * 100
+print(f"Total Customers: {total_customers}")
+print(f"Number of Churned Customers: {num_churned}")
+print(f"Overall Churn Rate: {churn_rate:.2f}%")
